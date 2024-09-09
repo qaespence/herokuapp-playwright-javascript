@@ -4,14 +4,14 @@ This is a UI automation framework built using [Playwright](https://playwright.de
 
 ## Project Structure
 
-```bash
+```
 herokuapp-playwright-javascript/
 ├── /tests/                          # Contains all test case files
-│   ├── add_remove_elements.spec.js   # Test file for Add/Remove Elements page
-│   ├── basic_auth.spec.js            # Test file for Basic Auth page
+│   ├── add_remove_elements.spec.js  # Test file for Add/Remove Elements page
+│   ├── basic_auth.spec.js           # Test file for Basic Auth page
 ├── /pages/                          # Contains Page Object Model files
-│   ├── addRemoveElementsPage.js      # Page Object Model for Add/Remove Elements page
-│   ├── basicAuthPage.js              # Page Object Model for Basic Auth page
+│   ├── addRemoveElementsPage.js     # Page Object Model for Add/Remove Elements page
+│   ├── basicAuthPage.js             # Page Object Model for Basic Auth page
 ├── /utils/                          # Utility/helper functions (optional)
 ├── /reports/                        # Folder to store test reports (optional)
 ├── playwright.config.js             # Playwright configuration file
@@ -96,17 +96,3 @@ module.exports = {
 }
 ```
 
-## Folder/Project Structure
-
-```
-herokuapp-playwright-javascript/
-├── /tests/                          # Contains all test case files
-│   ├── add_remove_elements.spec.js   # Test file for Add/Remove Elements page
-│   └── basic_auth.spec.js            # Test file for Basic Auth page
-├── /pages/                          # Contains Page Object Model files
-│   ├── addRemoveElementsPage.js      # Page Object Model for Add/Remove Elements page
-│   └── basicAuthPage.js              # Page Object Model for Basic Auth page
-├── playwright.config.js             # Playwright configuration file
-├── package.json                     # Node.js project configuration file
-└── package-lock.json                # Node package lock file (auto-generated)
-```
