@@ -8,12 +8,10 @@ This is a UI automation framework built using [Playwright](https://playwright.de
 herokuapp-playwright-javascript/
 ├── /tests/                          # Contains all test case files
 │   ├── add_remove_elements.spec.js  # Test file for Add/Remove Elements page
-│   ├── basic_auth.spec.js           # Test file for Basic Auth page
+│   └── basic_auth.spec.js           # Test file for Basic Auth page
 ├── /pages/                          # Contains Page Object Model files
 │   ├── addRemoveElementsPage.js     # Page Object Model for Add/Remove Elements page
-│   ├── basicAuthPage.js             # Page Object Model for Basic Auth page
-├── /utils/                          # Utility/helper functions (optional)
-├── /reports/                        # Folder to store test reports (optional)
+│   └── basicAuthPage.js             # Page 
 ├── playwright.config.js             # Playwright configuration file
 ├── package.json                     # Node.js project configuration file
 └── package-lock.json                # Node package lock file (auto-generated)
