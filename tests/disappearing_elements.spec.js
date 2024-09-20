@@ -23,11 +23,11 @@ test.describe('Disappearing Elements Page', () => {
       menuItemTexts.forEach(item => foundMenuItems.add(item.trim()))
 
       // Log the menu items found on this reload
-      console.log(`Reload ${i + 1}: Found items:`, [...foundMenuItems])
+      // console.log(`Reload ${i + 1}: Found items:`, [...foundMenuItems])
 
       // If all possible menu items are found, stop reloading early
       if (possibleMenuItems.every(item => foundMenuItems.has(item))) {
-        console.log(`All menu items found after ${i + 1} reloads`)
+        // console.log(`All menu items found after ${i + 1} reloads`)
         break
       }
 
